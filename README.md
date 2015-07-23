@@ -1,6 +1,6 @@
 # lita-meme
 
-TODO: Add a description of the plugin.
+lita-meme allows you to autogenerate memes
 
 ## Installation
 
@@ -12,8 +12,17 @@ gem "lita-meme"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+You need to add an imgflip username and password to your config. https://imgflip.com/signup
+
+Then, in your `lita_config.rb`:
+```
+config.handlers.meme.username = "YOURUSERNAME"
+config.handlers.meme.password = "YOURPASSWORD"
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+`lita generate all the memes`
+> [URL to your generated meme image]
+
+`lita meme list` for a list of accepted templates
