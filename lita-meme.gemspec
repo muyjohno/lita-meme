@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-meme"
-  spec.version       = "0.2.0"
+  spec.version       = "0.2.1"
   spec.authors       = ["John O'Brien"]
   spec.email         = ["john.obrien@1minus1.com"]
   spec.description   = "Auto-generates memes"

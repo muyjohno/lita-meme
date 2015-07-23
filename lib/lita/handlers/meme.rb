@@ -33,8 +33,11 @@ module Lita
       config :password
 
       def list(response)
-        MEMES.each do |meme|
-          response.reply(meme[:description])
+        [].tap do |list|
+          MEMES.each do |meme|
+            list << "#{meme[:description]}"
+          end
+          response.reply(list)
         end
       end
 
