@@ -9,7 +9,7 @@ module Lita
       MEMES = [
         { regex: /(one does not simply) (.*)/i, id: 61579, description: "One does not simply X" },
         { regex: /(i don'?t always .*) (but when i do,? .*)/i, id: 61532, description: "I don't always X but when I do Y" },
-        { regex: /aliens ()(.*)/i, id: 101470, description: "[Aliens]" },
+        { regex: /aliens ()(.*)/i, id: 101470, description: "X [Aliens]" },
         { regex: /(not sure if .*) (or .*)/i, id: 61520, description: "Not sure if X or Y" },
         { regex: /(.*),? (\1 everywhere)/i, id: 347390, description: "X X everywhere" },
         { regex: /(y u no) (.+)/i, id: 61527, description: "Y u no X" },
@@ -24,9 +24,10 @@ module Lita
         { regex: /(.*) (ain'?t nobody got time for? that)/i, id: 442575, description: "X ain't nobody got time for that" },
         { regex: /(.*) (a+n+d+ it'?s gone)/i, id: 766986, description: "X and it's gone" },
         { regex: /(.* bats an eye) (.* loses their minds?)/i, id: 1790995, description: "X bats an eye Y loses their mind" },
-        { regex: /(back in my day) (.*)/i, id: 718432, description: "BAck in my day X" },
-        { regex: /(.*) (this is .*)/i, id: 14457516, description: "X this is [Sparta]" },
-        { regex: /(shut up) (and take .*)/i, id: 176908, description: "Shut up and take X" }
+        { regex: /(back in my day) (.*)/i, id: 718432, description: "Back in my day X" },
+        { regex: /(.*) (this is .*)/i, id: 14457516, description: "X this is Y [Sparta kick]" },
+        { regex: /(shut up) (and take .*)/i, id: 176908, description: "Shut up and take X" },
+        { regex: /(.* bad) (.* should feel bad)/i, id: 35747, description: "X is/are bad and Y should feel bad" }
       ]
 
       config :username
