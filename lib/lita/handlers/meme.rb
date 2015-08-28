@@ -9,10 +9,10 @@ module Lita
       MEMES = [
         { regex: /(one does not simply) (.*)/i, id: 61579, description: "One does not simply X" },
         { regex: /(i don'?t always .*) (but when i do,? .*)/i, id: 61532, description: "I don't always X but when I do Y" },
-        { regex: /aliens ()(.*)/i, id: 101470, description: "X [Aliens]" },
+        { regex: /aliens ()(.*)/i, id: 101470, description: "[Aliens] (Usage: 'aliens X')" },
         { regex: /(not sure if .*) (or .*)/i, id: 61520, description: "Not sure if X or Y" },
         { regex: /(.*),? (\1 everywhere)/i, id: 347390, description: "X X everywhere" },
-        { regex: /(y u no) (.+)/i, id: 61527, description: "Y u no X" },
+        { regex: /(y u no|why you no) (.+)/i, id: 61527, description: "Y u no X" },
         { regex: /(brace yoursel[^\s]+) (.*)/i, id: 61546, description: "brace yourself X" },
         { regex: /(.*) (all the .*)/i, id: 61533, description: "X all the Y" },
         { regex: /(.*) (that would be great|that'?d be great)/i, id: 563423, description: "X that'd be great" },
@@ -25,9 +25,10 @@ module Lita
         { regex: /(.*) (a+n+d+ it'?s gone)/i, id: 766986, description: "X and it's gone" },
         { regex: /(.* bats an eye) (.* loses their minds?)/i, id: 1790995, description: "X bats an eye Y loses their mind" },
         { regex: /(back in my day) (.*)/i, id: 718432, description: "Back in my day X" },
-        { regex: /(.*) (this is .*)/i, id: 14457516, description: "X this is Y [Sparta kick]" },
+        { regex: /(.*\?) (this is .*!)/i, id: 14457516, description: "X? this is Y!" },
         { regex: /(shut up) (and take .*)/i, id: 176908, description: "Shut up and take X" },
-        { regex: /(.* bad) (.* should feel bad)/i, id: 35747, description: "X is/are bad and Y should feel bad" }
+        { regex: /(.* bad) (.* should feel bad)/i, id: 35747, description: "X is/are bad and Y should feel bad" },
+        { regex: /(.*\?) (i .* live dangerously)/i, id: 646581, description: "X? I too like to live dangerously" }
       ]
 
       config :username
